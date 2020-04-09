@@ -40,7 +40,7 @@ class Screen extends React.Component{
     }
 
     nextStep() {
-        //@prashant tod0 - refactor into diff mehods
+        //@nikhil tod0 - refactor into diff mehods
         switch (this.stepNumber) {
             case 0: const InputPlayerNames = () => {
                 return (
@@ -61,7 +61,7 @@ class Screen extends React.Component{
                 })
                 break;
 
-                //@prashant maybe try to refactor business logic away from view logic according to react philosphy
+                //@nikhil maybe try to refactor business logic away from view logic according to react philosphy
             case 1:
                 // Read and store player names
                 
